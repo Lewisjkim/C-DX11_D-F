@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{017c41a5-0e00-4929-b67c-69bb387569bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptMgr">
+      <UniqueIdentifier>{ab627060-9156-4a91-9bc7-7b31c3f112be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{73ea3e59-f73d-4a22-805f-987539d8e522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Skills">
+      <UniqueIdentifier>{79c0caea-52e4-4e3b-8825-81b01267b9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monsters">
+      <UniqueIdentifier>{b57c7184-239a-48bb-8244-2bcd349e2330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\etc">
+      <UniqueIdentifier>{06120b69-ac61-4dd6-b1ca-84f505bb415a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CDRunnerScript.h">
+      <Filter>Scripts\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CEXSScript.h">
+      <Filter>Scripts\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CEZ8Script.h">
+      <Filter>Scripts\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CRX78Script.h">
+      <Filter>Scripts\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="EXSBullet.h">
+      <Filter>Scripts\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CGoblinScript.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CTauScript.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CGoblinThrowerScript.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CGTStoneScript.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CGTStoneScript2.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CBakalScript.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CBakalAttackScript.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CBakalStampScript.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CBreakObject.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMoveScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoorScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CBakalParticle.h">
+      <Filter>Scripts\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoadingCirlce.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CComboScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CDamageScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnterMapScript.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CFloatingLevel.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CHudScript.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CDRunnerScript.cpp">
+      <Filter>Scripts\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CEXSScript.cpp">
+      <Filter>Scripts\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CEZ8Script.cpp">
+      <Filter>Scripts\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CRX78Script.cpp">
+      <Filter>Scripts\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="EXSBullet.cpp">
+      <Filter>Scripts\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CGoblinScript.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CTauScript.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CGoblinThrowerScript.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CGTStoneScript.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CGTStoneScript2.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CBakalScript.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CBakalAttackScript.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CBakalStampScript.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CBreakObject.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMoveScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoorScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CBakalParticle.cpp">
+      <Filter>Scripts\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoadingCirlce.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CComboScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CDamageScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnterMapScript.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CFloatingLevel.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CHudScript.cpp" />
+  </ItemGroup>
+</Project>
